@@ -36,7 +36,7 @@ npm install
 node index.js
 ```
 
-To change search params, edit params from function transformText:
+To change search params, edit params from function searchContents:
 #### Example:
 ```
 transformText(await searchContents(`<li>`, `</li>`));
